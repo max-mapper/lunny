@@ -1,0 +1,18 @@
+{ "name": "lunny"
+, "version": "0.0.1"
+, "description": "npm for phonegap plugins"
+, "author": "Max Ogden <max@maxogden.com> (http://maxogden.com)"
+, "keywords" : [ "phonegap", "cordova", "npm"]
+, "repository":
+  { "type" : "git"
+  , "url" : "https://github.com/maxogden/commonjs-html-prettyprinter.git"
+  }
+, "bin" : { "html" : "./bin/lunny.js" }
+, "dependencies": { 
+  "pluginstall":"git://github.com/imhotep/pluginstall.git",
+  "optimist": "0.3.4",
+  "npm": "1.1.62",
+  "read-installed": "0.0.2"
+  }
+, "main" : "lib/lunny.js"
+}
